@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  width: 100%;
+}
+
+.full-page {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.page-container {
+  width: 100%;
+  height: 100vh;
+  background: url('../../images/tinsel-pics/slide6.JPG') no-repeat center;
+  background-size: cover;
+}
+
+.slideout-menu-toggle {
+  width: 6vw;
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.slideout-menu {
+  width: 100%;
+  height: 13vh;
+  background-color: black;
+  opacity: 0.6;
+  /*display: none;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.page-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*position: absolute;*/
+}
+
+li {
+  list-style: none;
+}
+
+.button1 {
+  width: 6vw;
+  padding-top: 2.7vh;
+}
+
+.button2 {
+  width: 7.7vw;
+  padding-top: 1.8vh;
+}
+
+.button3 {
+  width: 9.4vw;
+  padding-top: 2.6vh;
+}
+
+.button4 {
+  width: 7.4vw;
+  padding-top: 2.3vh;
+}
+
+.image-container {
+  width: 100%;
+  height: 86.5vh;
+  /*background-color: gray;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold-logo {
+  width: 21vw;
+  z-index: 10;
+  position: relative;
+  padding-bottom: 5vh;
+}
