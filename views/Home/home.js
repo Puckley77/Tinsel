@@ -1,22 +1,21 @@
-$(document).ready(function () {
-    $('.slideout-menu-toggle').on('click', function(event){
-    	event.preventDefault();
-    	// create menu variables
-    	var slideoutMenu = $('.slideout-menu');
-    	var slideoutMenuWidth = $('.slideout-menu').width();
+// HAMBURGER MENU
 
-    	// toggle open class
-    	slideoutMenu.toggleClass("open");
+var clickedOn = false;
 
-    	// slide menu
-    	if (slideoutMenu.hasClass("open")) {
-	    	slideoutMenu.animate({
-		    	left: "0px"
-	    	});
-    	} else {
-	    	slideoutMenu.animate({
-		    	left: -slideoutMenuWidth
-	    	}, 250);
-    	}
-    });
+$('.menu-toggle').click(function() {
+
+    if (!clickedOn) {
+        $('.slideout-menu').fadeIn('slow');
+        $('.about-text').fadeOut('slow');
+        clickedOn = true;
+    } else {
+        $('.slideout-menu').fadeOut('slow');
+        $('.about-text').fadeIn('slow');
+        clickedOn = false;
+    }
+});
+
+$('#menu-hide').click(function() {
+    $('.slideout-menu').hide();
+    clickedOn = false;
 });

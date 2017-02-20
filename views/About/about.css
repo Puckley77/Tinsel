@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+/*font-family: 'Sacramento', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+.nav-container {
+    width: 100%;
+    height: 87px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    color: gold;
+    /*text-transform: uppercase;*/
+    opacity: 0.7;
+    padding-top: 1.5vh;
+}
+
+.about-container {
+    width: 100%;
+    height: 72.8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.img-background {
+    width: 34.8vw;
+    height: 55.5vh;
+    background: url("../../images/gold-icons/gold-texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.comp-img {
+    width: 33.7vw;
+    height: 53.5vh;
+    background: url("../../images/content-pics/content50.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-img {
+    width: 33.7vw;
+    height: 53.5vh;
+    background: url("../../images/content-pics/content51.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorize:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .3s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .3s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .3s ease-in-out;
+}
+
+.colorize {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .3s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: .3s ease-in-out;
+}
+
+.about-title {
+    color: white;
+    font-size: 5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: -1px -1px 0 #B29600, 1px -1px 0 #B29600, -1px 1px 0 #B29600, 1px 1px 0 #B29600;
+}
+
+.social-media {
+    width: 100%;
+    height: 87px;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    width: 3.8vw;
+    opacity: 0.8;
+}
