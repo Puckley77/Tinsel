@@ -12,65 +12,101 @@ body {
 .page-container {
   width: 100%;
   height: 100vh;
-  background: url('../../images/tinsel-pics/slide8.JPG') no-repeat center;
-  background-size: cover;
+  /*background: url('../../images/tinsel-pics/slide8.JPG') no-repeat center;
+  background-size: cover;*/
+}
+
+.menu-button {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  /*float: left;*/
 }
 
 .menu-toggle {
-  width: 82px;
-  padding: 10px;
+  width: 6vw;
+  padding-left: 1vw;
   position: relative;
   z-index: 51;
   opacity: 0.6;
+  transition: all .7s;
 }
 
 .menu-toggle:hover {
   cursor: pointer;
+  opacity: 1;
+}
+
+.hide-show {
+  display: none;
 }
 
 .slideout-menu {
   width: 100%;
-  height: 82px;
+  height: 13vh;
   background-color: black;
   opacity: 0.7;
-  display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .page-buttons {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /*position: absolute;*/
+  position: absolute;
   z-index: 51;
 }
 
 li {
   list-style: none;
+  margin: 0vh 6vw;
 }
 
 .button1 {
-  width: 85px;
-  padding-top: 2.7vh;
+  width: 6.3vw;
+}
+
+.button1:hover {
+  width: 6.6vw;
 }
 
 .button2 {
-  width: 107px;
-  padding-top: 1.8vh;
+  width: 8.5vw;
+}
+
+.button2:hover {
+  width: 8.8vw;
 }
 
 .button3 {
-  width: 130px;
-  padding-top: 2.6vh;
+  width: 8.3vw;
+}
+
+.button3:hover {
+  width: 8.6vw;
 }
 
 .button4 {
-  width: 103px;
-  padding-top: 2.3vh;
+  width: 8.5vw;
+}
+
+.button4:hover {
+  width: 8.8vw;
+}
+
+#menu-hide {
+  opacity: .8;
+  transition: all .5s;
+}
+#menu-hide:hover {
+  opacity: 1;
 }
 
 .image-container {

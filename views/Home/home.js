@@ -5,17 +5,47 @@ var clickedOn = false;
 $('.menu-toggle').click(function() {
 
     if (!clickedOn) {
-        $('.slideout-menu').fadeIn('slow');
+        $('.hide-show').fadeIn('slow');
         $('.about-text').fadeOut('slow');
         clickedOn = true;
     } else {
-        $('.slideout-menu').fadeOut('slow');
+        $('.hide-show').fadeOut('slow');
         $('.about-text').fadeIn('slow');
         clickedOn = false;
     }
 });
 
 $('#menu-hide').click(function() {
-    $('.slideout-menu').hide();
+    $('.hide-show').hide();
+    $('.about-text').fadeIn();
     clickedOn = false;
+});
+
+
+// SLIDESHOW BACKGROUND
+
+$(function(){
+$('body').vegas({
+    autoplay: true,
+    preloadImage: false,
+    cover: true,
+    delay: 6000,
+    transitionDuration: 2500,
+    timer: false,
+    loop: true,
+    shuffle: true,
+    slides: [
+        { src: "../../images/tinsel-pics/slide1.JPG" },
+        { src: "../../images/tinsel-pics/slide2.jpg" },
+        { src: "../../images/tinsel-pics/slide3.jpg" },
+        { src: "../../images/tinsel-pics/slide4.jpg" },
+        { src: "../../images/tinsel-pics/slide5.jpg" },
+        { src: "../../images/tinsel-pics/slide6.jpg" },
+        { src: "../../images/tinsel-pics/slide7.jpg" },
+        { src: "../../images/tinsel-pics/slide8.jpg" },
+        { src: "../../images/tinsel-pics/slide9.jpg" },
+        { src: "../../images/tinsel-pics/slide10.jpg" }
+    ],
+    animation: 'kenburns'
+  });
 });

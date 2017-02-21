@@ -7,7 +7,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .nav-container {
     width: 100%;
-    height: 87px;
+    height: 13vh;
     background: black;
     display: flex;
     justify-content: center;
@@ -20,13 +20,14 @@ font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 100;
     color: gold;
     /*text-transform: uppercase;*/
-    opacity: 0.7;
+    opacity: 0.75;
     padding-top: 1.5vh;
 }
 
 .about-container {
     width: 100%;
-    height: 72.8vh;
+    height: 74vh;
+    background: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -100,7 +101,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .social-media {
     width: 100%;
-    height: 87px;
+    height: 13vh;
     padding-left: 35vw;
     padding-right: 35vw;
     background: black;
@@ -111,7 +112,28 @@ font-family: 'Open Sans Condensed', sans-serif;
     align-items: center;
 }
 
+.small-gold {
+  width: 5.2vw;
+  transition: all .6s;
+}
+
+.small-gold:hover {
+  opacity: 0.7;
+}
+
+.seperator {
+  color: #B29600;
+  font-size: 17px;
+  margin: 0px 1vw 0px 1vw;
+}
+
 .social {
-    width: 3.8vw;
-    opacity: 0.8;
+    width: 4vw;
+    opacity: 0.6;
+    margin: 1vw;
+    transition: all .6s;
+}
+
+.social:hover {
+  opacity: 1;
 }
