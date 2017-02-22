@@ -1,3 +1,5 @@
+@import 'variables';
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
@@ -103,7 +105,7 @@ li {
 
 #menu-hide {
   opacity: .8;
-  transition: all .5s;
+  transition: all .7s;
 }
 #menu-hide:hover {
   opacity: 1;

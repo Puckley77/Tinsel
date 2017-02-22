@@ -11,6 +11,7 @@ angular.module('tinsel', ['ui.router'])
             })
 
             .state('about', {
+              controller: 'aboutCtrl',
               url: '/about',
               templateUrl: '/views/about/about.html'
             })
