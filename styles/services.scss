@@ -1,0 +1,175 @@
+@import url( 'https://fonts.googleapis.com/css?family=Dosis|Lora');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Lora', serif;
+
+.parallax1 {
+    width: 100%;
+    height: 30vh;
+    speed: 0.4;
+    background: url('../../images/page-imgs/parallax1.jpg');
+    background-position: top;
+    background-size: contain;
+    z-index: 200;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+}
+
+.parallax2 {
+    width: 100%;
+    height: 30vh;
+    speed: 0.4;
+    background: url('../../images/page-imgs/parallax2.jpg');
+    background-position: top;
+    background-size: cover;
+    z-index: 200;
+}
+
+.parallax3 {
+    width: 100%;
+    height: 30vh;
+    speed: 0.4;
+    background: url('../../images/page-imgs/parallax3.jpg');
+    background-position: top;
+    background-size: cover;
+    z-index: 200;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-service {
+    width: 100vw;
+    height: 60vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#service-img {
+    // width: 25vw;
+    height: 47vh;
+    border: solid 5px #B29600;
+    border-radius: 5%;
+    margin-left: 5vw;
+}
+
+#service-img2 {
+    // width: 25vw;
+    height: 45vh;
+    border: solid 5px #B29600;
+    border-radius: 5%;
+    margin-right: 7vw;
+}
+
+h3 {
+    margin-left: 5vw;
+    margin-bottom: 7vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.service-desc {
+    margin-left: 7vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.service-desc2 {
+    margin-left: 7vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.social-media2 {
+    width: 100%;
+    height: 10vh;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    background: black;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+   width: 0.5em;
+   height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+   background: black;
+}
+
+::-webkit-scrollbar-track {
+   background: #fff;
+}
+
+//Media queries-----------------------------------
+
+@media (max-width: 1025px) {
+  .service-desc {
+    font-size: 20px;
+  }
+
+  .service-desc2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 750px) {
+  .service-desc {
+    font-size: 18px;
+  }
+
+  .service-desc2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    margin-bottom: 2vh;
+    font-size: 26px;
+  }
+
+  #service-img2 {
+    height: 40vh;
+    margin-right: 6vw;
+  }
+}
+
+@media (max-width: 580px) {
+  .service-desc {
+    font-size: 16px;
+  }
+
+  .service-desc2 {
+    font-size: 16px;
+  }
+
+  #service-img {
+    display: none;
+  }
+
+  #service-img2 {
+    display: none;
+  }
+
+  .full-service {
+    height: 50vh;
+  }
+}

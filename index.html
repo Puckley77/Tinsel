@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Tinsel Events</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="./sources/fancyBox/source/jquery.fancybox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./sources/fancyBox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen">
     <link rel="stylesheet" href="/sources/vegas.min.css">
     <link rel="stylesheet" href="/dist/styles.css">
     <base href="/">
@@ -12,18 +14,22 @@
 
 <body>
     <nav class="nav-bar">
-            <div class="menu-button">
-                <img src="./images/menu-button.png" class="menu-toggle">
-            </div>
+        <div class="menu-button">
+            <img src="./images/menu-button.png" class="menu-toggle">
+        </div>
         <div class="hide-show">
             <div class="slideout-menu">
-                <ul class="page-buttons">
+                <ul class="page-buttons"servmenudir>
                     <a ui-sref="about">
-                        <li><img src="./images/About.png" id="menu-hide" class="button1"></li>
+                        <li><img src="./images/About.png" id="menu-hide" class="button1" servmenudir></li>
                     </a>
-                    <li><img src="./images/Services.png" id="menu-hide" class="button2"></li>
-                    <li><img src="./images/Gallery.png" id="menu-hide" class="button3"></li>
-                    <li><img src="./images/Contact.png" id="menu-hide" class="button4"></li>
+                    <a ui-sref="services">
+                        <li><img src="./images/Services.png" id="menu-hide" class="button2" servmenudir></li>
+                    </a>
+                    <a ui-sref="gallery">
+                        <li><img src="./images/Gallery.png" id="menu-hide" class="button3" servmenudir></li>
+                    </a>
+                    <li><img src="./images/Contact.png" id="menu-hide" class="button4" servmenudir></li>
                 </ul>
             </div>
         </div>
@@ -35,13 +41,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="./sources/fancyBox/source/jquery.fancybox.js"></script>
+    <script src="./sources/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
     <script src="./sources/vegas.min.js"></script>
     <script src="./sources/moment.js"></script>
     <script src="./views/app.js"></script>
     <script src="./views/home/home.js"></script>
-    <script src="./views/about/aboutController.js"></script>
     <script src="./views/about/aboutDirective.js"></script>
-    <script src="./views/about/about.js"></script>
+    <script src="./views/services/serviceMenuDir.js"></script>
+    <script src="./views/portfolio/galleryDir.js"></script>
 </body>
 
 </html>
