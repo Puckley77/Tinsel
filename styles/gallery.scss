@@ -1,3 +1,7 @@
+body {
+  background: white;
+}
+
 .caption-text2 {
     font-family: 'Sacramento', cursive;
     font-size: 43px;
@@ -11,8 +15,8 @@
 .gallery-container {
     width: 100%;
     background: white;
-    // display: flex;
-    // justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 5vh 5vw;
 }
@@ -36,10 +40,9 @@
 .gal1 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content1.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -49,10 +52,9 @@
 .gal2 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content2.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -62,10 +64,9 @@
 .gal3 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content3.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -75,10 +76,9 @@
 .gal4 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content4.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -88,10 +88,9 @@
 .gal5 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content5.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -101,10 +100,9 @@
 .gal6 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content6.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -114,10 +112,9 @@
 .gal7 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content7.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -127,10 +124,9 @@
 .gal8 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content8.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -140,10 +136,9 @@
 .gal9 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content9.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -153,10 +148,9 @@
 .gal10 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content10.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -166,10 +160,9 @@
 .gal11 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content11.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -179,10 +172,9 @@
 .gal12 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content12.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -192,10 +184,9 @@
 .gal13 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content13.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -205,10 +196,9 @@
 .gal14 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content14.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -218,10 +208,9 @@
 .gal15 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content15.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -231,10 +220,9 @@
 .gal16 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content16.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -244,10 +232,9 @@
 .gal17 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content17.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -255,12 +242,11 @@
 }
 
 .gal18 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content18.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -268,12 +254,11 @@
 }
 
 .gal19 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content19.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -281,12 +266,11 @@
 }
 
 .gal20 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content20.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -294,12 +278,11 @@
 }
 
 .gal21 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content21.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -307,12 +290,11 @@
 }
 
 .gal22 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content22.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -320,12 +302,11 @@
 }
 
 .gal23 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content23.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -333,12 +314,11 @@
 }
 
 .gal24 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content24.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -346,12 +326,11 @@
 }
 
 .gal25 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content25.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -359,12 +338,11 @@
 }
 
 .gal26 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content26.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -372,12 +350,11 @@
 }
 
 .ga27 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content27.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -385,12 +362,11 @@
 }
 
 .gal28 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content28.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -398,12 +374,11 @@
 }
 
 .gal29 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content29.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -411,12 +386,11 @@
 }
 
 .gal30 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content30.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -424,12 +398,11 @@
 }
 
 .gal31 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content31.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -437,12 +410,11 @@
 }
 
 .gal32 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content32.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -450,12 +422,11 @@
 }
 
 .gal33 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content33.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -463,12 +434,11 @@
 }
 
 .gal34 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content34.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -476,12 +446,11 @@
 }
 
 .gal35 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content35.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -489,12 +458,11 @@
 }
 
 .gal36 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content36.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -502,12 +470,11 @@
 }
 
 .gal37 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content37.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -515,12 +482,11 @@
 }
 
 .gal38 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content38.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -528,12 +494,11 @@
 }
 
 .gal39 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url('../../images/content-pics/content39.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -541,25 +506,27 @@
 }
 
 .gal40 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  background: url('../../images/content-pics/content40.jpg');
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: url('../../images/content-pics/content51.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .gal41 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content41.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -567,12 +534,13 @@
 }
 
 .gal42 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content42.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -580,12 +548,13 @@
 }
 
 .gal43 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content43.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -593,12 +562,13 @@
 }
 
 .gal44 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content44.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -606,12 +576,13 @@
 }
 
 .gal45 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content45.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -619,12 +590,13 @@
 }
 
 .gal46 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content46.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -632,12 +604,13 @@
 }
 
 .gal47 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content47.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -645,12 +618,13 @@
 }
 
 .gal48 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content48.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -658,12 +632,13 @@
 }
 
 .gal49 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content49.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -671,12 +646,13 @@
 }
 
 .gal50 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url('../../images/content-pics/content50.jpg');
   background-position: center;
   background-repeat: no-repeat;

@@ -1,0 +1,34 @@
+body {
+    background: white;
+}
+
+.contact-header {
+  width: 40%;
+  height: 8vh;
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  // border: 1px solid black;
+}
+
+.header-title {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.contact-desc {
+  width: 60%;
+  height: 12vh;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  // border: 1px solid black;
+}
+
+.header-desc {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+}

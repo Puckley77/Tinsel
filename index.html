@@ -19,7 +19,7 @@
         </div>
         <div class="hide-show">
             <div class="slideout-menu">
-                <ul class="page-buttons"servmenudir>
+                <ul class="page-buttons" servmenudir>
                     <a ui-sref="about">
                         <li><img src="./images/About.png" id="menu-hide" class="button1" servmenudir></li>
                     </a>
@@ -29,7 +29,9 @@
                     <a ui-sref="gallery">
                         <li><img src="./images/Gallery.png" id="menu-hide" class="button3" servmenudir></li>
                     </a>
-                    <li><img src="./images/Contact.png" id="menu-hide" class="button4" servmenudir></li>
+                    <a ui-sref="contact">
+                        <li><img src="./images/Contact.png" id="menu-hide" class="button4" servmenudir></li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -47,6 +49,7 @@
     <script src="./sources/moment.js"></script>
     <script src="./views/app.js"></script>
     <script src="./views/home/home.js"></script>
+    <script src="./views/home/homeCtrl.js"></script>
     <script src="./views/about/aboutDirective.js"></script>
     <script src="./views/services/serviceMenuDir.js"></script>
     <script src="./views/portfolio/galleryDir.js"></script>

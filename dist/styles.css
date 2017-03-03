@@ -184,6 +184,37 @@ font-family: 'Open Sans Condensed', sans-serif;
   .popup-box {
     font-size: 1.65em; } }
 
+body {
+  background: white; }
+
+.contact-header {
+  width: 40%;
+  height: 8vh;
+  position: absolute;
+  top: 15%;
+  text-align: center; }
+
+.header-title {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 45px;
+  font-weight: 600; }
+
+.contact-desc {
+  width: 60%;
+  height: 12vh;
+  position: absolute;
+  top: 30%;
+  text-align: center; }
+
+.header-desc {
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px; }
+
+body {
+  background: white; }
+
 .caption-text2 {
   font-family: 'Sacramento', cursive;
   font-size: 43px;
@@ -195,6 +226,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gallery-container {
   width: 100%;
   background: white;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 5vh 5vw; }
 
@@ -211,10 +244,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal1 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -223,10 +255,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal2 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -235,10 +266,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal3 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content3.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -247,10 +277,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal4 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content4.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -259,10 +288,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal5 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content5.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -271,10 +299,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal6 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content6.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -283,10 +310,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal7 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content7.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -295,10 +321,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal8 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content8.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -307,10 +332,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal9 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content9.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -319,10 +343,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal10 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content10.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -331,10 +354,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal11 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content11.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -343,10 +365,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal12 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content12.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -355,10 +376,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal13 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content13.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -367,10 +387,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal14 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content14.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -379,10 +398,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal15 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content15.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -391,10 +409,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal16 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content16.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -403,406 +420,394 @@ font-family: 'Open Sans Condensed', sans-serif;
 .gal17 {
   width: 200px;
   height: 275px;
-  border: 2px solid black;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content17.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal18 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content18.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal19 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content19.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal20 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content20.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal21 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content21.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal22 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content22.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal23 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content23.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal24 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content24.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal25 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content25.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal26 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content26.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .ga27 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content27.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal28 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content28.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal29 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content29.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal30 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content30.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal31 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content31.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal32 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content32.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal33 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content33.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal34 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content34.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal35 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content35.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal36 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content36.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal37 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content37.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal38 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content38.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal39 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 200px;
+  height: 275px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   background: url("../../images/content-pics/content39.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal40 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  background: url("../../images/content-pics/content40.jpg");
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background: url("../../images/content-pics/content51.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal41 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content41.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal42 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content42.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal43 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content43.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal44 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content44.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal45 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content45.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal46 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content46.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal47 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content47.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal48 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content48.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal49 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content49.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .gal50 {
-  width: 175px;
-  height: 250px;
-  border: 2px solid black;
+  width: 275px;
+  height: 200px;
   display: inline-block;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   background: url("../../images/content-pics/content50.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -970,7 +975,7 @@ li {
   background-size: cover; }
 
 .full-service {
-  width: 100vw;
+  width: 100%;
   height: 60vh;
   background: white;
   display: flex;

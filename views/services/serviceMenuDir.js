@@ -3,10 +3,16 @@ angular.module('tinsel')
   return {
     restrict: 'A',
     link: function(scope, element, attributes){
+
       element.click(function(){
         $('.hide-show').hide();
         $('.caption-text').fadeIn();
         $('.caption-text2').fadeIn();
+        clickedOn = false;
+      })
+
+      $('.small-gold').click(function(){
+        $('.hide-show').hide();
         clickedOn = false;
       })
     }
