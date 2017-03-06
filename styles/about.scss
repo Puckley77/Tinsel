@@ -170,16 +170,41 @@ font-family: 'Open Sans Condensed', sans-serif;
 .popup-box {
   width: 65%;
   height: 80vh;
-  background: black;
+  background: url('../../images/page-imgs/about1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 201;
   position: absolute;
   border: 4px solid $primaryGold;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 2.2em;
-  padding: 1.6vh 1.6vw;
-  color: white;
+  padding: 2vh 2vw;
+  color: black;
   overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popup-box2 {
+  width: 65%;
+  height: 80vh;
+  background: url('../../images/page-imgs/about2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 201;
+  position: absolute;
+  border: 4px solid $primaryGold;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2.4em;
+  padding: 2vh 2vw;
+  color: black;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #company-popup {
@@ -205,8 +230,12 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 // AT MEDIA QUERIES
 
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   .popup-box {
+    font-size: 2.5em;
+  }
+
+  .popup-box2 {
     font-size: 2.5em;
   }
 }
@@ -215,10 +244,18 @@ font-family: 'Open Sans Condensed', sans-serif;
   .popup-box {
     font-size: 1.9em;
   }
+
+  .popup-box2 {
+    font-size: 1.9em;
+  }
 }
 
 @media (max-width: 800px) {
   .popup-box {
+    font-size: 1.65em;
+  }
+
+  .popup-box2 {
     font-size: 1.65em;
   }
 }
